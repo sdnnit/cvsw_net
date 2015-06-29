@@ -13,13 +13,13 @@ command-line shells. Here, supported functions are listed as follows:
 * OpenFlow 1.0 Match-Action
 * MTU size setting
 * Offload  setting
-* VXLAN, NVGRE, STT, and Geneve tunneling (cvsw-nvo3 branch)
+* VXLAN, NVGRE, STT, Geneve, and VXLAN over SCLP tunneling (cvsw-nvo3 branch)
 
 
 =
 ### Branches
 
-* cvsw-nvo3       : Supports VXLAN, NVGRE, STT, and Geneve tunnels
+* cvsw-nvo3       : Supports VXLAN, NVGRE, STT, Geneve, and VXLAN over SCLP tunnels
 
 
 =
@@ -53,9 +53,9 @@ command-line shells. Here, supported functions are listed as follows:
 
 Currently CVSW has been tested with KVM on the following distributions.
 
- * Redhat Enterprise Linux 6.5
+ * Redhat Enterprise Linux 6.5, 6.6
 
- * Redhat Enterprise Linux 7.0
+ * Redhat Enterprise Linux 7.0, 7.1
 
  * Fedora 20
 
@@ -74,10 +74,10 @@ See 'INSTALL.md'
 Overview and architectural details of CVSW are described in the following 
 papers.
 
-* R. Kawashima, S. Muramatsu, H. Nakayama, T. Hayashi, and H. Matsuo,
+* R. Kawashima, S. Muramatsu, H. Nakayama, T. Hayashi, and H. Matsuo, 
 "SCLP: Segment-oriented Connection-Less Protocol for High-Performance 
-Software Tunneling in Datacenter Networks", Proc. 1st IEEE Conference on
-Network Softwarization (NetSoft 2015), London, UK, 2015 (to appear).
+Software Tunneling in Datacenter Networks", Proc. 1st IEEE Network 
+Softwarization (NetSoft 2015), pp.1-8, London, April 2015.
 
 * R. Kawashima and H. Matsuo, "Implementing and Performance Analysis of 
 STT Tunneling using vNIC Offloading Framework (CVSW)", 
